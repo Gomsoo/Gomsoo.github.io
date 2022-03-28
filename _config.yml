@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 정문수
+title: Android Developer
+email: suprmoony3@gmail.com
+#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username: Gomsoo
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: moonsoo-jeong
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,75 +46,204 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: https://avatars.githubusercontent.com/u/29334435?v=4
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  반갑습니다. 안드로이드 개발자 정문수입니다.
+  
+  크로스 플랫폼 프레임워크 개발로 커리어를 시작하여 이 때 C++, C#, Java의 다양한 언어와 리눅스, Free-BSD, Windows .NET, Android의 다양한 플랫폼에서 작업하는 경험할 수 있었습니다.
+  
+  지금은 <mark>안드로이드</mark> 개발자로 커리어를 이어나가고 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 빙글
+#        link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Android Lead Developer
+        caption: 2018. 5 ~ 2022. 1 (3년 9개월)
+#        quote: >
+#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - 빙글 안드로이드 앱 개발 및 유지보수
+          - 모임 안드로이드 앱 개발 및 유지보수
+          - 디자인 시스템 정의 및 개발
+      - layout: left
+        title: 티맥스
+        #        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 개발 & 연구원
+        caption: 2016. 1 ~ 2017. 8 (1년 8개월)
+        #        quote: >
+        #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          - 크로스 플랫폼 프레임워크(Tmax One Platform) 개발
+          - TmaxOS로의 SWT 호환
+          - TmaxOS Application Framework 설계 및 개발
+      - layout: left
+        title: 씨랩시스
+        #        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 안드로이드 개발(계약직)
+        caption: 2016. 6 ~ 2016. 6 (1개월)
+        #        quote: >
+        #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          - BLE를 활용하는 안드로이드 앱 개발
 
-  - title: Education # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+      - layout: top-middle
+        title: 모임
+        link: http://localhost:4000#빙글
+        link_text: 빙글
+        additional_links:
+          - title: 파도상자
+            icon: fas fa-globe
+            url: https://play.google.com/store/apps/details?id=co.padobox.android
+          - title: 베이크
+            icon: fas fa-globe
+            url: https://play.google.com/store/apps/details?id=co.vake.android
+          - title: 패런트리
+            icon: fas fa-globe
+            url: https://play.google.com/store/apps/details?id=co.parentree.android
+          - title: Impact Collective
+            icon: fas fa-globe
+            url: https://play.google.com/store/apps/details?id=co.impactcollective.android
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          모임은 개발팀 없이 커뮤니티를 꾸리고 빌딩하고 싶은 고객들에게 커뮤니티를 위한 기술들을 제공하는 서비스입니다.
+          - 기간 : 2019. 11 ~ 2022. 1 (2년 3개월)
+          - 성과 : 파도상자 지분 보유(15%) 및 수익 쉐어로 파도상자의 5배 성장을 통한 매출 상승
+          - 역할
+            - 모임 안드로이드 앱 개발
+            - 모임 모바일 앱 플러터 개발
+            - 비동기 프로그래밍(Kotlin Coroutine)
+            - 리액티브 프로그래밍(Kotlin Flow)
+            - 페이징 및 무한 스크롤 구현(Jetpack Paging3)
+            - 로컬 캐싱 구현(In-memory, Room)
+            - Dependency Injection 적용(Dagger-Hilt)
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: top-middle
+        title: 디자인 시스템 개발
+        link: http://localhost:4000#빙글
+        link_text: 빙글
+        description: | # this will include new lines to allow paragraphs
+          디자인 팀과 협업하여 사내에서 사용하고 추후 공개까지 고려한 디자인 시스템을 제작하였습니다.
+          - 기간 : 2019. 11 ~ 2022. 1 (2년 3개월)
+          - 성과 : UX와 Look and Feel의 일관성 확보, 손쉬운 UI 디자인, 재사용성 증대, UI Element 별 QA 진행
+          - 역할
+            - 디자인 시스템 정의
+            - 안드로이드 플랫폼 디자인 시스템 구현
+            - 디자인 시스템 QA를 위한 카탈로그 앱 구현
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: top-middle
+        title: 빙글
+        link: http://localhost:4000#빙글
+        link_text: 빙글
+        additional_links:
+          - title: 빙글 안드로이드
+            icon: fas fa-globe
+            url: https://play.google.com/store/apps/details?id=com.vingle.android
+        quote: >
+          관심사 네트워크
+        description: | # this will include new lines to allow paragraphs
+          빙글은 관심사를 기반으로 사용자들에게 커뮤니티 기능들을 제공하는 소셜 서비스입니다.
+          - 기간 : 2018. 5 ~ 2022. 1 (3년 9개월)
+          - 역할
+            - 빙글 안드로이드 앱 개발
+            - Java to Kotlin 마이그레이션
+            - MVP to MVVM 아키텍쳐 변경 적용
+            - 비동기 및 리액티브 프로그래밍(RxJava)
+            - 페이징 및 무한 스크롤 구현(자체 솔루션, Jetpack Paging)
+            - 로컬 데이터 베이스 도입(Room)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: top-middle
+        title: TmaxOS Application Framework
+        link: http://localhost:4000#티맥스
+        link_text: 티맥스
+        description: | # this will include new lines to allow paragraphs
+          TmaxOS에서 어플리케이션 개발을 위해 플랫폼을 설계 및 개발하고, SDK 제공을 위해 라이브러리를 개발하는 프로젝트입니다.
+          - 기간 : 2017. 1 ~ 2017. 8 (8개월)
+          - 성과 : TmaxOS용 어플리케이션 개발을 위한 플랫폼 및 Development kit 정의, 설계 및 개발
+          - 역할
+            - 코어 라이브러리 설계 및 개발(C++)
+            - UI 컴포넌트 설계 및 개발(C++)
+
+      - layout: top-middle
+        title: SWT호환
+        link: http://localhost:4000#티맥스
+        link_text: 티맥스
+        description: | # this will include new lines to allow paragraphs
+          이클립스 기반인 TOP IDE를 TmaxOS에서 실행시키기 위해 SWT를 Free-BSD와 리눅스 기반인 TmaxOS로 포팅하는 프로젝트입니다.
+          - 기간 : 2016. 9 ~ 2016. 12 (4개월)
+          - 성과 : 필요한 UI element 포팅을 통해 TmaxOS에서 TOP IDE 실행 
+          - 역할
+            - SWT UI 라이브러리 개발
+            - SWT to TmaxOS JNI 코드 작성
+            - 크로미움 코드 분석
+
+      - layout: top-middle
+        title: Tmax One Platform
+        link: http://localhost:4000#티맥스
+        link_text: 티맥스
+        description: | # this will include new lines to allow paragraphs
+          One source to Multi platform build를 위한 크로스 플랫폼 프레임워크를 개발하는 프로젝트입니다. Java + XML로 앱을 개발하도록 제공하며 Web, 안드로이드, iOS, Windows .NET, TmaxOS로의 빌드가 되도록 진행하였습니다.
+          - 기간 : 2016. 1 ~ 2016. 8 (8개월)
+          - 성과 : 크로스 플랫폼 프레임워크 개발, 여러 플랫폼의 개발 프레임워크 분석 및 경험
+          - 역할
+            - 통합 언어로 개발을 제공하기 위한 각 플랫폼 조사 및 분석
+            - 통합을 위한 정책 수립
+            - 코어 라이브러리(Java) 설계 및 개발
+            - .NET(C#) 플랫폼 라이브러리 개발
+            - TmaxOS(C++) 플랫폼 라이브러리 개발
+            - Java to .NET, Java to TmaxOS 코드 제너레이터(Java, Xtend) 개발
+
+      - layout: top-middle
+        title: Twinkle.B
+        link: http://localhost:4000#씨랩시스
+        link_text: 씨랩시스
+        description: | # this will include new lines to allow paragraphs
+          자전거 분실 방지를 위해 작은 비콘을 자전거에 부착하고, 스마트폰과 BLE 통신을 통해 자전거를 모니터링 할 수 있도록 기능들을 제공하는 프로젝트입니다.
+          - 기간 : 2015. 6. 1 ~ 2015. 6. 30 (1개월)
+          - 성과 : 비콘 출시 및 판매, 앱 출시 후 다운로드 제공
+          - 역할
+              - 안드로이드 앱 개발
+              - BLE를 활용한 근거리 통신
+
+#  - title: Education # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        title: Harvard University
+#        caption: 2010 - 2013
+#        sub_title: BSc Computer Science
+#        quote: >
+#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+#        description: | # this will include new lines to allow paragraphs
+#          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+#
+#          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+#
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image
+#      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
+references_title: Template from sproogen/modern-resume-theme #References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
