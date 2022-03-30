@@ -102,16 +102,16 @@ content:
         link_text: 빙글
         additional_links:
           - title: 파도상자
-            icon: fas fa-globe
+            icon: fas fa-link
             url: https://play.google.com/store/apps/details?id=co.padobox.android
           - title: 베이크
-            icon: fas fa-globe
+            icon: fas fa-link
             url: https://play.google.com/store/apps/details?id=co.vake.android
           - title: 패런트리
-            icon: fas fa-globe
+            icon: fas fa-link
             url: https://play.google.com/store/apps/details?id=co.parentree.android
           - title: Impact Collective
-            icon: fas fa-globe
+            icon: fas fa-link
             url: https://play.google.com/store/apps/details?id=co.impactcollective.android
 #        quote: >
 #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
@@ -147,7 +147,7 @@ content:
         link_text: 빙글
         additional_links:
           - title: 빙글 안드로이드
-            icon: fas fa-globe
+            icon: fas fa-link
             url: https://play.google.com/store/apps/details?id=com.vingle.android
         quote: >
           관심사 네트워크
