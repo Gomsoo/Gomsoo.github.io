@@ -245,3 +245,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,jetbrains,ruby
+
+
+.DS_Store
