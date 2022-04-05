@@ -175,7 +175,7 @@ content:
             - UI 컴포넌트 설계 및 개발(C++)
 
       - layout: top-middle
-        title: SWT호환
+        title: SWT 호환
         link: https://gomsoo.github.io#티맥스
         link_text: 티맥스
         description: | # this will include new lines to allow paragraphs
