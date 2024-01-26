@@ -121,7 +121,15 @@ content:
           취향이 자산이 되다.
         description: | # this will include new lines to allow paragraphs
           크리에이터와 팬들을 위한 커뮤니티 마켓 플랫폼을 제공합니다.
-          - 기간 : 2022. 6 ~ 현재
+          - 기간 : 2022. 6 ~ 2023. 11
+          - 성과
+            - 분리된 모듈 구조 도입 및 빌드 스크립트 개선을 통한 빌드 속도 개선
+              - 입사 시점 45초 -> 가장 느릴 때 3분 40초
+              - 개선 후: 클린 빌드 시 1분 20초, 평소 개발 시 10초
+            - 하드코딩 되던 디자인 리소스의 재사용성 확보
+              - 디자인 팀과 협의를 통한 디자인 토큰 및 값 정리
+              - 테마, attribute 및 스타일 정의를 통한 공용 리소스 재사용성 확보
+            - 텍스트 및 Localization 싱크 작업을 Gradle 스크립트를 통해 자동화
           - 역할
             - 어랏 안드로이드 앱 개발
               - 비동기 프로그래밍(Kotlin Coroutine)
@@ -130,6 +138,8 @@ content:
               - 로컬 캐싱 구현(In-memory, Room)
               - Dependency Injection 적용(Dagger-Hilt)
               - 깃랩 CI/CD 파이프라인 구현 및 업데이트
+            - 어랏 어드민 페이지 개발
+              - 리액트 + 리액트 Query + Tailwind CSS
 
       - layout: top-middle
         title: 모임
